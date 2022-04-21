@@ -35,4 +35,11 @@ Load data to the Client side
 3.collection.find(query)
 4.cursor.toArray()
 5.return the result
+6.from client useEffect and display like...
+--------------
+DELETE
+---------------
+1.const ObjectId = require('mongodb').ObjectId;
+2.app.delete('/user/:id'
+3
 */
