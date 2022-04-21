@@ -27,4 +27,12 @@ CRUD Operation
 3.on server:Create user POST method to receive data on the backend
 4. on Client side: set fetch with POST ,headers,body
 5. Make sure you return a json from the POST API
+---------------------
+Load data to the Client side
+----------------------
+1.create get API on the server side
+2.create a query query
+3.collection.find(query)
+4.cursor.toArray()
+5.return the result
 */
